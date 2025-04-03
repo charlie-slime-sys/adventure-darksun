@@ -9,6 +9,14 @@
     --gray: #4f514f;
 }
 
+.why-no-work {
+    display: flex;
+    color: var(--green);
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: black;
