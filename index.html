@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darksun</title>
+    <title>Interactive Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: green;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('default.jpg'); /* Default background image */
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid green;
+            padding: 20px;
+            width: 80%;
+        }
+        .options {
+            margin-bottom: 20px;
+        }
+        .options button {
+            background-color: black;
+            color: green;
+            border: 2px solid green;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .options button:hover {
+            background-color: green;
+            color: black;
+        }
+        .dropdown {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .dropdown select {
+            background-color: black;
+            color: green;
+            border: 2px solid green;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="dropdown">
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="options">
+            <button onclick="changeBackground('image1.jpg')">Option 1</button>
+            <button onclick="changeBackground('image2.jpg')">Option 2</button>
+            <button onclick="changeBackground('image3.jpg')">Option 3</button>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <script>
+        function changeBackground(image) {
+            document.body.style.backgroundImage = `url('${image}')`;
+        }
+    </script>
 </body>
 </html>
