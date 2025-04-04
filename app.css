@@ -58,11 +58,11 @@ body {
     flex-direction: column;
     /* need to make it so where the box is on the bottom of the page instead of sitting in the middle HELP HELP HELP */
     margin-top: 20%;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .container {
-    text-align: center;
+    text-align: left;
     border: 2px solid var(--darkergreen);
     padding: 50px;
     width: 90%;
@@ -88,6 +88,49 @@ body {
 }
 
 .dropdown {
+    position: fixed; /* fixes the dropdown to the right */
+    transform: translateY(-50%);
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+/* dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 10%; /* moves left */
+    top: 75px;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #11ff00;
+    border-color: #11ff00;
+    color: #11ff00;
+    /* replace hex codes with var(--green) :) */
+}
+
+.dropdown-content p {
+    color: #11ff00;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* text */
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.dropdown-text {
+    font-size: 12px;
+}
+
+/* .dropdown {
     position: absolute;
     top: 50px;
     right: 30px;
@@ -107,7 +150,7 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
+  } */
 
 /* some hot garbage AI produced */
 /* .dropdown {
