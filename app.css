@@ -39,8 +39,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: var(--black);
     color: var(--green);
     margin: 0;
     display: flex;
@@ -65,7 +64,7 @@ body {
     text-align: left;
     border: 2px solid var(--darkergreen);
     padding: 50px;
-    width: 90%;
+    width: 87.1%;
 }
 
 .options {
@@ -74,7 +73,7 @@ body {
 }
 
 .options button {
-    background-color: black;
+    background-color: var(--black);
     color: var(--green);
     border: 2px solid var(--darkergreen);
     padding: 20px;
@@ -93,7 +92,7 @@ body {
     display: inline-block;
     position: absolute;
     top: 50px;
-    right: 10px;
+    right: 8px;
 }
 
 /* dropdown content */
@@ -102,18 +101,18 @@ body {
     position: absolute;
     right: 10%; /* moves left */
     top: 75px;
-    background-color: #000000;
+    background-color: var(--black);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border: 1px solid #11ff00;
-    border-color: #11ff00;
-    color: #11ff00;
+    border: 1px solid var(--green);
+    border-color: var(--green);
+    color: var(--green);
     /* replace hex codes with var(--green) :) */
 }
 
 .dropdown-content p {
-    color: #11ff00;
+    color: var(--green);
     padding: 20px;
     text-decoration: none;
     display: block;
@@ -128,76 +127,5 @@ h3 {
 
 .dropdown-text {
     font-size: 12px;
+    margin-bottom: -15px;
 }
-
-/* .dropdown {
-    position: absolute;
-    top: 50px;
-    right: 30px;
-}
-
-.dropdown select {
-    background-color: black;
-    color: green;
-    border: 2px solid green;
-    padding: 10px;
-}
-
-.dropbtn {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  } */
-
-/* some hot garbage AI produced */
-/* .dropdown {
-    position: relative; For absolute positioning of the dropdown content 
-    display: inline-block; To allow inline elements to be placed next to each other 
-    position: absolute; //display over everything 
-    top: 20px;
-    left: 20px;
-    background-color: black;
-    color: green;
-    border: 2px solid green;
-    padding: 10px;
-  }
-  
-  .dropbtn {
-    Style the button/trigger
-    background-color: #f1f1f1;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .arrow {
-    Style the arrow
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid black;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-  }
-  
-  .dropdown-content {
-    display: none; Initially hide the content
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; Ensure it appears above other elements
-  }
-  
-  .dropdown-content p {
-    padding: 12px 16px;
-    cursor: pointer;
-  } */
