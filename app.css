@@ -78,7 +78,8 @@ img {
     text-align: left;
     border: 2px solid var(--darkergreen);
     padding: 50px;
-    width: 87.1%;
+    width: 1900px;
+    height: 280px;
     background-color: var(--black);
 }
 
