@@ -78,8 +78,10 @@ img {
     text-align: left;
     border: 2px solid var(--darkergreen);
     padding: 50px;
-    width: 1900px;
-    height: 280px;
+    width: 1400px;
+    height: 200px;
+    /* width: 1900px;
+    height: 280px; */
     background-color: var(--black);
 }
 
