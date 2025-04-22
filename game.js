@@ -89,6 +89,68 @@ const textNodes = [
         ]
     },
     {
+        id: 51,
+        text: "You meet your unfortunate fate, and suddenly EXPLODE in front of Nagito. (Hey, didn't you read the book cover?)",
+        options: [
+            {
+                text: 'Restart',
+                nextText: 8,
+            },
+            {
+                text: 'Restart to Beginning',
+                nextText: 1,
+            },
+        ]
+    },
+    {
+        id: 52,
+        text: "The left path leads down past a dried creek full of a dark red substance that appears to coagulate rapidly. You couldn't help but wince as you watched it squelch underneath your feet. You proceed forward.",
+        options: [
+            {
+                text: 'Go forward.',
+                nextText: 54,
+            },
+        ]
+    },
+    {
+        id: 53,
+        text: "The right path leads you straight through a massive cave full of glowing crystals. As you walk, you find yourself on the horizons of the left path you glimpsed at on your way here. Walking path the dried creek with suspicious substance, you proceed.",
+        options: [
+            {
+                text: 'Go forward.',
+                nextText: 54,
+            },
+        ]
+    },
+    {
+        id: 54,
+        text: "The right path leads you straight through a massive cave full of glowing crystals. As you walk, you find yourself on the horizons of the left path you glimpsed at on your way here. Walking path the dried creek with suspicious substance, you proceed.",
+        options: [
+            {
+                text: 'The lights are calling to you. Go to it.',
+                nextText: 55,
+            },
+            {
+                text: 'Go back to town for materials.',
+                nextText: 0,
+            },
+        ]
+    },
+    {
+        id: 55,
+        text: "The lights beckon you deeper into the forest, following florescent lights that mindlessly led you down a path. Next thing you know, you trip, causing yourself to tumble and fall down a deep dark hole...and you wake up, confused. NEVER. TRUST. A. FAE. [[Ending: Fallen Down]]",
+        options: [
+            {
+                text: 'Restart',
+                nextText: 7,
+            },
+            {
+                text: 'Restart to Beginning',
+                nextText: 1,
+            },
+        ]
+    },
+    {
         id: 2,
         text: 'You walk down the village path down to the local library to find more information on this urban legend… However, you only happen to find storytale books, and nothing indicating exactly who Malice is. Or, what this thing can do. You walk out of the library.',
         options: [
@@ -128,22 +190,95 @@ const textNodes = [
     },
     {
         id: 5,
-        text: 'null',
+        text: 'You walk past Nagito, straight into the forest. There’s trees and massive foliage surrounding you. You trudge through the greenery, and you stumble upon two paths.',
         options: [
             {
-                text: 'null',
+                text: 'Progress',
                 nextText: 7,
             },
         ]
     },
     {
         id: 6,
-        text: 'null',
+        text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him.',
         options: [
             {
-                text: 'null',
+                text: 'Progress',
                 nextText: 8,
             },
+        ]
+    },
+    // leads to NEVER TRUST A FAE deadend
+    {
+        id: 7,
+        text: 'After trudging out of town and into the forest, you come across two paths to choose from.',
+        options: [
+            {
+                text: 'Go down the left path.',
+                nextText: 52,
+            },
+            {
+                text: 'Go down the right path.',
+                nextText: 53,
+            },
+            {
+                text: 'Go back to town to gather weapons.',
+                nextText: 7.1,
+            },
+        ]
+    },
+    {
+        id: 8,
+        text: 'The Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from.',
+        options: [
+            {
+                text: "Alduin's Tomb of Death and Ailments (Necromancy)",
+                nextText: 9,
+            },
+            {
+                text: "Fury's Tomb of War Fire (Pyromancy)",
+                nextText: 9,
+            },
+            {
+                text: 'CURSE OF EXPLODING',
+                nextText: 51,
+            },
+        ]
+    },
+    {
+        id: 9,
+        text: 'One week later, You are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
+        options: [
+            {
+                text: "Go Home.",
+                nextText: 50, 
+            },
+            {
+                text: "Explore the ruined boat.",
+                nextText: 10,
+            },
+            { 
+                text: "Take the functioning boat.",
+                nextText: 11,
+            },
+        ]
+    },
+    {
+        id: 11,
+        text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster.",
+        options: [
+            {
+                text: "Flee!",
+                nextText: 0,
+            },
+            {
+                text: "Fight with magic!",
+                nextText: 0,
+            },
+            {
+                text: "Fight!",
+                nextText: 0,
+            }
         ]
     },
     // {
