@@ -85,7 +85,7 @@ const textNodes = [
             {
                 text: 'Restart',
                 nextText: 1
-            }
+            },
         ]
     },
     {
@@ -123,6 +123,26 @@ const textNodes = [
             {
                 text: 'Ask how to learn magic.',
                 nextText: 6,
+            },
+        ]
+    },
+    {
+        id: 5,
+        text: 'null',
+        options: [
+            {
+                text: 'null',
+                nextText: 7,
+            },
+        ]
+    },
+    {
+        id: 6,
+        text: 'null',
+        options: [
+            {
+                text: 'null',
+                nextText: 8,
             },
         ]
     },
