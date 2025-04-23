@@ -78,16 +78,20 @@ img {
     text-align: left;
     border: 2px solid var(--darkergreen);
     padding: 50px;
-    width: 1400px;
+    width: 80%;
     height: 200px;
-    /* width: 1900px;
-    height: 280px; */
+    /* width: 1900px; */
+    /* height: 280px; */
     background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .options {
     margin-bottom: 20px;
     width: 20%;
+    margin-left: 83px;
 }
 
 .options button {
