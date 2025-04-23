@@ -56,12 +56,31 @@ function selectOption(option) {
 
 // figure out how to change images alongside the info
 const textNodes = [
+    { // PLACEHOLDER 
+        id: 0,
+        text: "NULL",
+        options: [
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+        ]
+    },
     {
         id: 1,
         text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to the Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
         // this is where the game starts, dead ends lead back to here
 
         // setState: { wizard: true },
+        // requiredState: (currentState) => currentState.wizard, 
         options: [
             {
                 text: 'Go Home.',
@@ -124,15 +143,15 @@ const textNodes = [
     },
     {
         id: 54,
-        text: "The right path leads you straight through a massive cave full of glowing crystals. As you walk, you find yourself on the horizons of the left path you glimpsed at on your way here. Walking path the dried creek with suspicious substance, you proceed.",
+        text: "The path glows lightly with fluorescent mushrooms and falling leaves. While focusing on the beautiful lights of the forest, you notice them getting closer and closer.",
         options: [
             {
                 text: 'The lights are calling to you. Go to it.',
                 nextText: 55,
             },
             {
-                text: 'Go back to town for materials.',
-                nextText: 0,
+                text: 'Run back to town.',
+                nextText: 7.1,
             },
         ]
     },
@@ -184,6 +203,7 @@ const textNodes = [
             },
             {
                 text: 'Ask how to learn magic.',
+                setState: { wizard: true },
                 nextText: 6,
             },
         ]
@@ -200,7 +220,7 @@ const textNodes = [
     },
     {
         id: 6,
-        text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him.',
+        text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him. "This man can be of use," you think, smiling at him to assure you really meant this.',
         options: [
             {
                 text: 'Progress',
@@ -211,7 +231,7 @@ const textNodes = [
     // leads to NEVER TRUST A FAE deadend
     {
         id: 7,
-        text: 'After trudging out of town and into the forest, you come across two paths to choose from.',
+        text: "When you enter the forest, exhausted by your long walk, you stumble along two paths that you have full access to traverse. They look unique, but feel as if they're attempting to trick you.",
         options: [
             {
                 text: 'Go down the left path.',
@@ -228,7 +248,62 @@ const textNodes = [
         ]
     },
     {
+        id: 7.1,
+        text: "Lodging back into town, you feel as if you're not ready for this. The forest could have killed you in an instant. You ponder on what should help you on this adventure.",
+        options: [
+            {
+                text: "Consult the Wizard (Magic)",
+                setState: { wizard: true },
+                nextText: 8,
+            },
+            {
+                text: "Go to the Blacksmith (Sword)",
+                nextText: 8.1,
+            },
+            {
+                text: "Go to the Gunsmith (Gun)",
+                nextText: 8.2,
+            },
+        ]
+    },
+    {
         id: 8,
+        text: 'With a giddy smile, the Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from. He tells you to choose wisely, carefully holding the three for you to look at.',
+        options: [
+            {
+                text: "Alduin's Tomb of Death and Ailments (Necromancy)",
+                nextText: 9,
+            },
+            {
+                text: "Fury's Tomb of War Fire (Pyromancy)",
+                nextText: 9,
+            },
+            {
+                text: 'CURSE OF EXPLODING',
+                nextText: 51,
+            },
+        ]
+    },
+    {
+        id: 8.1,
+        text: 'The Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from.',
+        options: [
+            {
+                text: "Alduin's Tomb of Death and Ailments (Necromancy)",
+                nextText: 9,
+            },
+            {
+                text: "Fury's Tomb of War Fire (Pyromancy)",
+                nextText: 9,
+            },
+            {
+                text: 'CURSE OF EXPLODING',
+                nextText: 51,
+            },
+        ]
+    },
+    {
+        id: 8.2,
         text: 'The Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from.',
         options: [
             {
