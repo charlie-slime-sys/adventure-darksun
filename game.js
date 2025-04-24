@@ -228,8 +228,7 @@ const textNodes = [
             },
         ]
     },
-    // leads to NEVER TRUST A FAE deadend
-    {
+    { // leads to NEVER TRUST A FAE deadend
         id: 7,
         text: "When you enter the forest, exhausted by your long walk, you stumble along two paths that you have full access to traverse. They look unique, but feel as if they're attempting to trick you.",
         options: [
@@ -286,43 +285,27 @@ const textNodes = [
     },
     {
         id: 8.1,
-        text: 'The Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from.',
+        text: 'guns',
         options: [
             {
-                text: "Alduin's Tomb of Death and Ailments (Necromancy)",
-                nextText: 9,
-            },
-            {
-                text: "Fury's Tomb of War Fire (Pyromancy)",
-                nextText: 9,
-            },
-            {
-                text: 'CURSE OF EXPLODING',
-                nextText: 51,
+                text: "Progress.",
+                nextText: 9.1, //gun mastery
             },
         ]
     },
     {
         id: 8.2,
-        text: 'The Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from.',
+        text: 'swords',
         options: [
             {
-                text: "Alduin's Tomb of Death and Ailments (Necromancy)",
-                nextText: 9,
-            },
-            {
-                text: "Fury's Tomb of War Fire (Pyromancy)",
-                nextText: 9,
-            },
-            {
-                text: 'CURSE OF EXPLODING',
-                nextText: 51,
+                text: "Progress.",
+                nextText: 9.2, //sword mastery
             },
         ]
     },
     {
         id: 9,
-        text: 'One week later, You are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
+        text: 'One week later, you are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
         options: [
             {
                 text: "Go Home.",
@@ -339,20 +322,75 @@ const textNodes = [
         ]
     },
     {
-        id: 11,
+        id: 9.1, //gun
+        text: 'One week later, you are a master [], congrats! You go out, delving deeper into the forest and continue your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
+        options: [
+            {
+                text: "Go Home.",
+                nextText: 50, 
+            },
+            {
+                text: "Explore the ruined boat.",
+                nextText: 10,
+            },
+            { 
+                text: "Take the functioning boat.",
+                nextText: 11,
+            },
+        ]
+    },
+    {
+        id: 9.2, //sword
+        text: 'One week later, you are a master , congrats! You go out, delving deeper into the forest the [] helps you through your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
+        options: [
+            {
+                text: "Go Home.",
+                nextText: 50, 
+            },
+            {
+                text: "Explore the ruined boat.",
+                nextText: 10,
+            },
+            { 
+                text: "Take the functioning boat.",
+                nextText: 11,
+            },
+        ]
+    },
+    {
+        id: 10, //xplr ruined boat
+        text: "NULL",
+        options: [
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+            {
+                text: "NULL",
+                nextText: 1,
+            },
+        ]
+    },
+    {
+        id: 11, ///functioning boat
         text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster.",
         options: [
             {
                 text: "Flee!",
-                nextText: 0,
+                nextText: 0, //you go around the lake
             },
             {
                 text: "Fight with magic!",
-                nextText: 0,
+                requiredState: (currentState) => currentState.wizard,
+                nextText: 11.1, //11.1 gives a quick happy "you defeat the monster with magic and progress across the lake" kind of thing,, make sure it's long enough (3-4 sent) to fit the box
             },
             {
                 text: "Fight!",
-                nextText: 0,
+                nextText: 11.2, //option on if you had a sword/gun
             }
         ]
     },
@@ -403,3 +441,40 @@ const textNodes = [
 ]
 
 startGame()
+
+
+// // Function to handle selecting an option
+// function selectOption(option) {
+//     const placeholderImage = document.getElementById("placeholder");
+
+//     // Update the image based on the option's image property
+//     if (option.image) {
+//         placeholderImage.src = option.image;
+//     }
+
+//     // Proceed to the next text node (if needed)
+//     const nextTextNodeId = option.nextText;
+//     showTextNode(nextTextNodeId);
+// }
+
+// // Function to display the current text node
+// function showTextNode(textNodeId) {
+//     const textNode = textNodes.find(node => node.id === textNodeId);
+
+//     // Render text and options (for simplicity, console.log is used)
+//     console.log(textNode.text);
+//     textNode.options.forEach(option => {
+//         console.log(option.text);
+
+//         // Add event listener to choose an option
+//         // Replace this with actual button creation if needed
+//         // Example:
+//         // const button = document.createElement("button");
+//         // button.innerText = option.text;
+//         // button.onclick = () => selectOption(option);
+//         // document.body.appendChild(button);
+//     });
+// }
+
+// // Start with the first text node
+// showTextNode(0);
