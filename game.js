@@ -292,6 +292,7 @@ const textNodes = [
         options: [
             {
                 text: "Progress.",
+                setState: { weapon: true },
                 nextText: 9.1, //gun mastery
             },
         ]
@@ -302,6 +303,7 @@ const textNodes = [
         options: [
             {
                 text: "Progress.",
+                setState: { weapon: true },
                 nextText: 9.2, //sword mastery
             },
         ]
@@ -365,38 +367,67 @@ const textNodes = [
         text: "NULL",
         options: [
             {
-                text: "NULL",
-                nextText: 1,
+                text: "Go around the lake.",
+                nextText: 10.1,
             },
             {
-                text: "NULL",
-                nextText: 1,
-            },
-            {
-                text: "NULL",
-                nextText: 1,
+                text: "Go back to working boat.",
+                nextText: 11,
             },
         ]
     },
     {
         id: 11, ///functioning boat
-        text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster.",
+        text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster. The waves crash, churning below you and knocking your boat violently side to side. The beast’s jaw opening to reveal its massive fangs, ready to pull you overboard for dinner.",
         options: [
             {
                 text: "Flee!",
-                nextText: 0, //you go around the lake
+                nextText: 10.1, //you go around the lake
             },
             {
-                text: "Fight with magic!",
+                text: "Fight with magic!", //opt with wizard
                 requiredState: (currentState) => currentState.wizard,
-                nextText: 11.1, //11.1 gives a quick happy "you defeat the monster with magic and progress across the lake" kind of thing,, make sure it's long enough (3-4 sent) to fit the box
+                nextText: 11.1, 
             },
             {
                 text: "Fight!",
+                requiredState: (currentState) => currentState.weapon,
                 nextText: 11.2, //option on if you had a sword/gun
             }
         ]
     },
+    {
+        id: 11.1,
+        text: "Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.",
+        options: [
+            {
+                text: "Continue across the lake.",
+                nextText: 12,
+            },
+        ]
+    },
+    {
+        id: 11.2,
+        text: "You wield your weapon, pointing it at the large serpent before bracing your feet and narrowing your gaze. You weren't about to be eaten today. With a swift blow, you manage to knock the beast back into its waters for safety, either fleeing, or down for the count. Either or, you had no more obstacles in your way.",
+        options: [
+            {
+                text: "Continue across the lake.",
+                nextText: 12,
+            },
+        ]
+    },
+    {
+        id: 12,
+        text: "nu",
+        options: [
+            {
+                text: ",",
+                nextTest: 13,
+            },
+        ]
+    },
+    // Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.
+
     // {
     //     id: 2,
     //     text: 'You venture forth in search of answers to where you are, when you happen to come across a merchant.',
