@@ -70,3 +70,21 @@ Beetle’z bag o tricks!:
 
 A completely chaotic bag of holding that has been reworked by beetle himself to have a machine in it that constantly produces new Specialty Booz.
 
+ {
+        id: 9,
+        text: '',
+        options: [
+            {
+                text: "",
+                nextText: , 
+            },
+            {
+                text: "",
+                nextText: ,
+            },
+            { 
+                text: "",
+                nextText: ,
+            },
+        ]
+    },
