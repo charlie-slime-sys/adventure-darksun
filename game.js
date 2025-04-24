@@ -54,11 +54,14 @@ function selectOption(option) {
     showTextNode(nextTextNodeId)
 } //shows the next text, and assigns options
 
+
+
 // figure out how to change images alongside the info
 const textNodes = [
     { // PLACEHOLDER 
         id: 0,
         text: "NULL",
+        //image
         options: [
             {
                 text: "NULL",
