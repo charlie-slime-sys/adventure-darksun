@@ -364,7 +364,7 @@ const textNodes = [
     },
     {
         id: 10, //xplr ruined boat
-        text: "NULL",
+        text: "You slowly approach the massive ruins of a merchant ship that has been lodged into the side of an abandoned dock workers house. The ruins of the ship and house creak loudly as the wood beams seem to be ready to break at any second due to rot and the weight setting in. You enter the boat through a massive gash in the hull revealing clearly looted boxes that were stamped with a crimson red wax seal with a boat decal on it. After rummaging through the looted remains of the ship you only really find a few clams and a key that instantly crumbles to nothing but a broken key ring and shattered bits of metal. You'd leave the ruined ship slightly saddened by the mediocre findings.",
         options: [
             {
                 text: "Go around the lake.",
