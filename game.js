@@ -364,7 +364,7 @@ const textNodes = [
     },
     {
         id: 10, //xplr ruined boat
-        text: "NULL",
+        text: "You slowly approach the massive ruins of a merchant ship that has been lodged into the side of an abandoned dock workers house. The ruins of the ship and house creak loudly as the wood beams seem to be ready to break at any second due to rot and the weight setting in. You enter the boat through a massive gash in the hull revealing clearly looted boxes that were stamped with a crimson red wax seal with a boat decal on it. After rummaging through the looted remains of the ship you only really find a few clams and a key that instantly crumbles to nothing but a broken key ring and shattered bits of metal. You leave the ruined ship slightly saddened by the mediocre findings.",
         options: [
             {
                 text: "Go around the lake.",
@@ -373,6 +373,46 @@ const textNodes = [
             {
                 text: "Go back to working boat.",
                 nextText: 11,
+            },
+        ]
+    },
+    {
+        id: 10.1, //around the lake
+        text: "You take the long path around the lake, avoiding your own dread and silently walking down the pathway. You take in the wondrous foliage around you, including the grass softly folding underneath your feet. Luckily, nothing ever bothers you on your journey here, allowing you just a moment of leisure to stop and smell the flowers. It reminds you of back home.",
+        options: [
+            {
+                text: "Stop and smell the flowers?",
+                nextText: 10.2,
+                requiredState: (currentState) => currentState.weapon,
+            },
+            {
+                text: "Stop and smell the flowers?",
+                nextText: 10.3,
+                requiredState: (currentState) => currentState.wizard,
+            },
+            {
+                text: "Continue on to pass the lake.",
+                nextText: 12,
+            },
+        ]
+    },
+    {
+        id: 10.2, //flowers sword
+        text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... You miss it. Taking a rose into your hand, you smell the flower, sickeningly sweet. It wasn't the best thing, but it provided you comfort on your journey. You get up.",
+        options: [
+            {
+                text: "Continue on to pass the lake.",
+                nextText: 12.1,
+            },
+        ]
+    },
+    {
+        id: 10.3, //flowers wizard
+        text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you a daisy he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
+        options: [
+            {
+                text: "Continue on to pass the lake.",
+                nextText: 12.1,
             },
         ]
     },
@@ -418,15 +458,38 @@ const textNodes = [
     },
     {
         id: 12,
-        text: "nu",
+        text: "You successfully managed to traverse the lake, exhausted by your efforts and donned with the blood of the serpent, you take a moment to rest. A soft yet harsh wind blows against you, forshadowing the events you are yet to encounter. You ponder two options in front of you. An old, rundown cabin that seems dusty and covered in cobwebs, and the clear foggy path in front of you.",
         options: [
             {
-                text: ",",
-                nextTest: 13,
+                text: "Continue Forward.",
+                nextText: 13,
+            },
+            {
+                text: "Investigate the rundown .",
+                nextText: 12.22,
             },
         ]
     },
-    // Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.
+    {
+        id: 12.1, //around the lake
+        text: "You successfully managed to go around the lake, ",
+        options: [
+            {
+                text: "Continue Forward.",
+                nextText: 13,
+            },
+        ]
+    },
+    {
+        id: 12.22, //ruined cabin
+        text: "",
+        options: [
+            {
+                text: "Continue Forward.",
+                nextText: 13,
+            },
+        ]
+    },
 
     // {
     //     id: 2,
