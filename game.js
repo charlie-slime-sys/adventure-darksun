@@ -1,4 +1,11 @@
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+// }
+//good for waiting for time
+
 document.addEventListener('DOMContentLoaded', function () {
+
+
   const dropdownButton = document.getElementById('dropdownButton');
   const dropdownContent = document.getElementById('dropdownContent');
 
@@ -26,9 +33,18 @@ function startGame() {
     showTextNode(1)
 }
 
-function showTextNode(textNodeIndex) {
+// for (const character of textNode.text) {
+//     textElement.innerText += character;
+//     await sleep(5);
+// }
+
+async function showTextNode(textNodeIndex) {
    const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
-   textElement.innerText = textNode.text
+   textElement.innerText = textNode.text;
+//    for (const character of textNode.text) {
+//     textElement.innerText += character;
+//     await sleep(5);
+// }   
    while (optionButtonsElement.firstChild) {
     optionButtonsElement.removeChild(optionButtonsElement.firstChild)
    } //removes options not needed on page
@@ -100,9 +116,20 @@ const textNodes = [
         ]
     },
     {
-        // deadend
+        // deadend home
         id: 50,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back to your cozy cottage, walking inside to feel the warm air inside of your home. Travelling through, you throw yourself into your room, flopping into bed. And though you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
+        options: [
+            {
+                text: 'Restart',
+                nextText: 1
+            },
+        ]
+    },
+    {
+        // deadend home 2
+        id: 50.22,
+        text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
         options: [
             {
                 text: 'Restart',
@@ -288,7 +315,7 @@ const textNodes = [
     },
     {
         id: 8.1,
-        text: 'guns',
+        text: 'gun:)',
         options: [
             {
                 text: "Progress.",
@@ -299,7 +326,7 @@ const textNodes = [
     },
     {
         id: 8.2,
-        text: 'swords',
+        text: 'sowrd',
         options: [
             {
                 text: "Progress.",
@@ -328,7 +355,7 @@ const textNodes = [
     },
     {
         id: 9.1, //gun
-        text: 'One week later, you are a master [], congrats! You go out, delving deeper into the forest and continue your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
+        text: 'One week later, you are a master sharpshooter, congrats! You go out, delving deeper into the forest and continue your adventure. You manage to clear the forest paths on your journey to the old shipyard.',
         options: [
             {
                 text: "Go Home.",
@@ -346,7 +373,7 @@ const textNodes = [
     },
     {
         id: 9.2, //sword
-        text: 'One week later, you are a master , congrats! You go out, delving deeper into the forest the [] helps you through your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
+        text: 'One week later, you are a master swordsman, congrats! You go out, delving deeper into the forest the sword helps you through your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
         options: [
             {
                 text: "Go Home.",
@@ -472,24 +499,44 @@ const textNodes = [
     },
     {
         id: 12.1, //around the lake
-        text: "You successfully managed to go around the lake, ",
+        text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you.",
         options: [
             {
                 text: "Continue Forward.",
                 nextText: 13,
+            },
+            {
+                text: "Investigate the rundown .",
+                nextText: 12.22,
             },
         ]
     },
     {
         id: 12.22, //ruined cabin
-        text: "",
+        text: "You enter the ruined cabin, brushing away dust, cobwebs",
         options: [
             {
                 text: "Continue Forward.",
                 nextText: 13,
             },
+            {
+                text: 'Go home.',
+                nextText: 50.22,
+            },
         ]
     },
+    {
+        id: 13, //malice encounter, reach branches + end of story
+        text: "null",
+        options: [
+            {
+                text: "null",
+                nextText: 13,
+            },
+        ]
+    },
+    // good = 14 bad = 15 neutral = 16 continue branches by decimal :)
+
 
     // {
     //     id: 2,

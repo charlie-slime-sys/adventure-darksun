@@ -46,8 +46,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('default.jpg');
-    /* Default background image */
     background-size: cover;
     background-position: center;
 }
