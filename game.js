@@ -79,7 +79,7 @@ const textNodes = [
     },
     {
         id: 1,
-        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to the Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
+        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
         // this is where the game starts, dead ends lead back to here
 
         // setState: { wizard: true },
