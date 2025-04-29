@@ -16,7 +16,7 @@ As you'd step into the shop your nose is immediately hit with the scent of river
 The walls are lined with wet moss and creaking shelves that hold up at least 50 or so bottles that flash with a soft blue light occasionally.
 It's clear that the wall papers are slowly peeling away and being covered with rotting wood and rusted nails.
 
-(Shop-Owner: Beetle
+(Shop-Owner: Beetle)
 A hefty man is behind the counter wearing a ratty torn up white and black vertical striped suit with a dark grey under shirt that's drenched in some kind of strong spirit.
 
 His stench is of an alcohol drenched gym sock that's been left to mold and rot out in the woods.
@@ -69,22 +69,3 @@ Holding, Buff and Attack.
 Beetle’z bag o tricks!:
 
 A completely chaotic bag of holding that has been reworked by beetle himself to have a machine in it that constantly produces new Specialty Booz.
-
- {
-        id: 9,
-        text: '',
-        options: [
-            {
-                text: "",
-                nextText: , 
-            },
-            {
-                text: "",
-                nextText: ,
-            },
-            { 
-                text: "",
-                nextText: ,
-            },
-        ]
-    },

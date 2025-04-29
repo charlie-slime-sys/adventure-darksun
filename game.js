@@ -132,7 +132,7 @@ const textNodes = [
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back to your cozy cottage, walking inside to feel the warm air inside of your home. Travelling through, you throw yourself into your room, flopping into bed. And though you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
         options: [
             {
-                text: 'Restart',
+                text: 'Restart.',
                 nextText: 1
             },
         ]
@@ -144,7 +144,43 @@ const textNodes = [
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
+                text: 'Restart.',
+                nextText: 1
+            },
+            {
+                text: 'Restart from last option.',
+                nextText: 1
+            },
+        ]
+    },
+    {
+        // deadend home 3
+        id: 50.33,
+        text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, the world comes to a crumble, all because of your cowardly recluse. [[ YOU LOSE ]]',
+        image: "/images/testing-clip.jpg", // Image specific to this text node
+        options: [
+            {
+                text: 'Restart.',
+                nextText: 1
+            },
+            {
+                text: 'Restart from last option.',
+                nextText: 1
+            },
+        ]
+    },
+    {
+        // deadend home 3
+        id: 50.32,
+        text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. The wizard looks utterly puzzled by your sudden act, but shrugs as he decides to follow you back on your journey anyhow. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. And even though you’ve safely returned home, the world crumbles just because of this ruthless, selfish act of yours. [[ YOU LOSE ]]',
+        image: "/images/testing-clip.jpg", // Image specific to this text node
+        options: [
+            {
                 text: 'Restart',
+                nextText: 1
+            },
+            {
+                text: 'Restart from last option.',
                 nextText: 1
             },
         ]
@@ -310,11 +346,11 @@ const textNodes = [
                 nextText: 8,
             },
             {
-                text: "Go to the Blacksmith (Sword)",
+                text: "Go to the Gunsmith (Gun)",
                 nextText: 8.1,
             },
             {
-                text: "Go to the Gunsmith (Gun)",
+                text: "Go to the Blacksmith (Sword)",
                 nextText: 8.2,
             },
         ]
@@ -340,7 +376,7 @@ const textNodes = [
     },
     {
         id: 8.1,
-        text: 'gun:)',
+        text: "You approach the The Firing Pin forge house and head up the counter where a woman with pointed ears rearranges the nearby bookshelf. You would call out to her causing the lady to stop and head over to you, they greet you warmly to the shop as a short bush like man hammers away at a red hot iron bar in the background behind her. You'd ask for one of the most effective weapons they sell and the lady quickly obliges as she'd bring out a rather blocky yet elegant Welding pistol, you would pay them 25 primordia before thanking them. She wishes you luck as you head back to the forest.",
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
@@ -352,7 +388,7 @@ const textNodes = [
     },
     {
         id: 8.2,
-        text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of gold coin in return, as that was the price. You head back out to the forest.',
+        text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of primodia coin in return, as that was the price. You head back out to the forest.',
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
@@ -468,7 +504,7 @@ const textNodes = [
     },
     {
         id: 10.3, //flowers wizard
-        text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you a daisy he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
+        text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you an orchid he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
@@ -476,7 +512,7 @@ const textNodes = [
                 nextText: 12.1,
             },
         ]
-    },
+    }, // maybe later add an option where you refuse to smell his flower and somewhat have a repeat of 10.2? footnote for charlie charleston
     {
         id: 11, ///functioning boat
         text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster. The waves crash, churning below you and knocking your boat violently side to side. The beast’s jaw opening to reveal its massive fangs, ready to pull you overboard for dinner.",
@@ -552,7 +588,7 @@ const textNodes = [
     },
     {
         id: 12.22, //ruined cabin
-        text: "You enter the ruined cabin, brushing away dust, cobwebs",
+        text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. ",
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
@@ -570,59 +606,74 @@ const textNodes = [
         text: "null",
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
-            {
+            { //good end
                 text: "null",
-                nextText: 13,
+                nextText: 14,
+                requiredState: (currentState) => currentState.weapon,
+            },
+            { //bad end
+                text: "null",
+                nextText: 15,
+            },
+            { //neutral end
+                text: "null",
+                nextText: 16,
+                requiredState: (currentState) => currentState.weapon,
+            },
+            { //go home last chance option weapon
+                text: 'Go home.',
+                nextText: 50.33,
+                requiredState: (currentState) => currentState.weapon,
+            },
+            { //go home last chance option wizard
+                text: 'Go home.',
+                nextText: 50.32,
+                requiredState: (currentState) => currentState.wizard,
             },
         ]
     },
-    // good = 14 bad = 15 neutral = 16 continue branches by decimal :)
 
+    {
+        id: 14,
+        text: "null",
+        image: "/images/testing-clip.jpg", // Image specific to this text node
+        options: [
+            { //good end
+                text: "null",
+                nextText: 14,
+                requiredState: (currentState) => currentState.weapon,
+            },
+        ]
+    },
 
-    // {
-    //     id: 2,
-    //     text: 'You venture forth in search of answers to where you are, when you happen to come across a merchant.',
-    //     options: [
-    //         {
-    //             text: 'Trade the goo for a sword',
-    //             requiredState: (currentState) => currentState.blueGoo, 
-    //             setState: { blueGoo: false, sword: true},
-    //             nextText: 3
-    //         },
-    //         {
-    //             text: 'Trade the goo for a shield',
-    //             requiredState: (currentState) => currentState.blueGoo, 
-    //             setState: { blueGoo: false, shield: true},
-    //             nextText: 3
-    //         },
-    //         {
-    //             text: 'Ignore the merchant.',
-    //             nextText: 3
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 3,
-    //     text: 'After leaving the merchant, you start to feel tired and stumble upon a small town next to a dangerous looking castle.',
-    //     options: [
-    //         {
-    //             text: 'Explore the castle.',
-    //             nextText: 4
-    //         },
-    //         {
-    //             text: 'Find a room to sleep in at the town.',
-    //             nextText: 5
-    //         },
-    //         {
-    //             text: 'Find some hay in a stable to sleep in.',
-    //             nextText: 6
-    //         }
-    //     ]
-    // },
-    // {
-    //     id: 4,
-    //     text: 'You were so tired that you fell asleep exploring the castle, and you are killed by some terrible monster in your sleep.'
-    // },
+    {
+        id: 15,
+        text: "null",
+        image: "/images/testing-clip.jpg", // Image specific to this text node
+        options: [
+            { //good end
+                text: "null",
+                nextText: 14,
+                requiredState: (currentState) => currentState.weapon,
+            },
+        ]
+    },
+
+    {
+        id: 16,
+        text: "null",
+        image: "/images/testing-clip.jpg", // Image specific to this text node
+        options: [
+            { //good end
+                text: "null",
+                nextText: 14,
+                requiredState: (currentState) => currentState.weapon,
+            },
+        ]
+    },
+    // good = 14 bad = 15 neutral = 16 
+    // continue branching by decimal
+
 ]
 
 startGame()

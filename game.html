@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darksun Visual Novel</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-wizardhat.png">
+    <link rel="stylesheet" href="app.css">
+    <script defer src="game.js"></script>
+</head>
+
+<body>
+    <a  class="link" href="index.html">title screen btn placeholder</a>
+    <!-- Javascript changes the image, enjoy this silly image of Wizard Nagito -->
+    <img id="placeholder" src="/images/testing-clip.jpg" alt="Game Image">
+
+    <div class="dropdown">
+        <!-- SVG Element acting as the dropdown button (triangle) -->
+        <svg id="dropdownButton" width="100" height="100" viewBox="0 0 100 100">
+            <polygon points="50,55 90,15 10,15" stroke="#11ff00" stroke-width="3" fill="#11ff00" />
+        </svg>
+        <!-- Dropdown content -->
+        <div id="dropdownContent" class="dropdown-content">
+
+            <!-- not doing inventory anymore -->
+            <!-- <h2 class="fix-margin">INVENTORY</h2>
+
+            <p class="dropdown-text">Important Items:</p>
+            <p class="dropdown-text">Magic Items:</p>
+            <p class="dropdown-text">Misc Items:</p> -->
+
+            <h2>CHARACTERS</h2>
+
+            <h3>Nix</h3>
+
+            <!-- For funsies if you're digging thru my code: Hp: 300 -->
+            <p class="dropdown-text">Armor Class: Medium</p>
+            <p class="dropdown-text">Race: Elf</p>
+            <p class="dropdown-text">Personality: Aloof</p>
+
+            <h3>The Wizard</h3>
+
+            <!-- For funsies: Hp: 150 -->
+            <p class="dropdown-text">Armor Class: Light</p>
+            <p class="dropdown-text">Race: Human</p>
+            <p class="dropdown-text small-margin">Personality: Kindhearted</p>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div>
+            <div class="options col" id="option-buttons">
+                <button>Option</button>
+                <button>Option</button>
+                <button>Option</button>
+            </div>
+        </div>
+
+        <div class="container col main-text-weight" id="text">Guh</div>
+    </div>
+
+    <!-- <script>
+        function changeBackground(image) {
+            document.body.style.backgroundImage = `url('${image}')`;
+        }
+    </script> -->
+
+</body>
+
+</html>
