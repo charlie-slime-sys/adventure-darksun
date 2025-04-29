@@ -315,7 +315,7 @@ const textNodes = [
     },
     {
         id: 8.1,
-        text: 'gun:)',
+        text: '',
         options: [
             {
                 text: "Progress.",
@@ -326,7 +326,7 @@ const textNodes = [
     },
     {
         id: 8.2,
-        text: 'sowrd',
+        text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of gold coin in return, as that was the price. You head back out to the forest.',
         options: [
             {
                 text: "Progress.",
