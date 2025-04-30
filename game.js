@@ -107,7 +107,7 @@ const textNodes = [
         id: 1,
         text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more. You should find out more.  You should find out more. You should find out more. You should find out more.v You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more.',
         // this is where the game starts, dead ends lead back to here
-        image: "/images/testing-clip.jpg", 
+        image: "/images/beginning.png", 
         // setState: { wizard: true },
         // requiredState: (currentState) => currentState.wizard, 
         options: [
@@ -128,7 +128,7 @@ const textNodes = [
     {
         // deadend home
         id: 50,
-        image: "/images/testing-clip.jpg", 
+        image: "/images/go_home1.png", 
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back to your cozy cottage, walking inside to feel the warm air inside of your home. Travelling through, you throw yourself into your room, flopping into bed. And though you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
         options: [
             {
@@ -141,7 +141,7 @@ const textNodes = [
         // deadend home 2
         id: 50.22,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/go_home2.png", 
         options: [
             {
                 text: 'Restart.',
@@ -157,7 +157,7 @@ const textNodes = [
         // deadend home 3
         id: 50.33,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, the world comes to a crumble, all because of your cowardly recluse. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/go_home3.png", 
         options: [
             {
                 text: 'Restart.',
@@ -558,7 +558,7 @@ const textNodes = [
     },
     {
         id: 12,
-        text: "You successfully managed to traverse the lake, exhausted by your efforts and donned with the blood of the serpent, you take a moment to rest. A soft yet harsh wind blows against you, forshadowing the events you are yet to encounter. You ponder two options in front of you. An old, rundown cabin that seems dusty and covered in cobwebs, and the clear foggy path in front of you.",
+        text: "You successfully managed to traverse the lake, exhausted by your efforts and donned with the blood of the serpent, you take a moment to rest. A soft yet harsh wind blows against you, foreshadowing the events you are yet to encounter. You ponder two options in front of you. An old, rundown cabin that seems dusty and covered in cobwebs, and the clear foggy path in front of you.",
         image: "/images/testing-clip.jpg", 
         options: [
             {
@@ -588,7 +588,7 @@ const textNodes = [
     },
     {
         id: 12.22, //ruined cabin
-        text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. It sort of creeps you out. You look around, finding an old dusty book too worn to read. With a sigh, and yet another fail of aquiring items, you leave the cabin.",
+        text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. It sort of creeps you out. You look around, finding an old dusty book too worn to read. With a sigh, and yet another fail of acquiring items, you leave the cabin.",
         image: "/images/testing-clip.jpg", 
         options: [
             {
