@@ -133,7 +133,7 @@ const textNodes = [
         options: [
             {
                 text: 'Restart.',
-                nextText: 1
+                nextText: 1,
             },
         ]
     },
@@ -145,11 +145,11 @@ const textNodes = [
         options: [
             {
                 text: 'Restart.',
-                nextText: 1
+                nextText: 1,
             },
             {
                 text: 'Restart from last option.',
-                nextText: 1
+                nextText: 12.22,
             },
         ]
     },
@@ -161,11 +161,11 @@ const textNodes = [
         options: [
             {
                 text: 'Restart.',
-                nextText: 1
+                nextText: 1,
             },
             {
                 text: 'Restart from last option.',
-                nextText: 1
+                nextText: 13,
             },
         ]
     },
@@ -177,11 +177,11 @@ const textNodes = [
         options: [
             {
                 text: 'Restart',
-                nextText: 1
+                nextText: 1,
             },
             {
                 text: 'Restart from last option.',
-                nextText: 1
+                nextText: 13,
             },
         ]
     },
@@ -566,7 +566,7 @@ const textNodes = [
                 nextText: 13,
             },
             {
-                text: "Investigate the rundown .",
+                text: "Investigate the Cabin.",
                 nextText: 12.22,
             },
         ]
@@ -645,9 +645,8 @@ const textNodes = [
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end
-                text: "null",
-                nextText: 14,
-                requiredState: (currentState) => currentState.weapon,
+                text: "Restart from Beginning",
+                nextText: 1,
             },
         ]
     },
@@ -658,9 +657,8 @@ const textNodes = [
         image: "/images/testing-clip.jpg", 
         options: [
             { //bad end weapon
-                text: "null",
-                nextText: 14,
-                requiredState: (currentState) => currentState.weapon,
+                text: "Restart from Beginning",
+                nextText: 1,
             },
         ]
     },
@@ -670,9 +668,8 @@ const textNodes = [
         image: "/images/testing-clip.jpg", 
         options: [
             { //BAD END wizard
-                text: "null",
-                nextText: 14,
-                requiredState: (currentState) => currentState.wizard,
+                text: "Restart from Beginning",
+                nextText: 1,
             },
         ]
     },
@@ -683,9 +680,8 @@ const textNodes = [
         image: "/images/testing-clip.jpg", 
         options: [
             { //NEUTRAL END
-                text: "null",
-                nextText: 14,
-                requiredState: (currentState) => currentState.weapon,
+                text: "Restart from Beginning",
+                nextText: 1,
             },
         ]
     },
