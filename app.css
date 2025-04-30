@@ -11,10 +11,10 @@
     --white: #fff;
     --gray: #4f514f;
     --black: #000;
-    --darkgreen: #032000;
     --green: #11ff00;
     --darkergreen: green;
-    --darkgreen: #032000;
+    --darkgreen: #010d00; 
+    /* darker green being the lighter makes no sense but okay */
 }
 
 .main-text-weight {

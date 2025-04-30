@@ -86,7 +86,7 @@ const textNodes = [
     { // PLACEHOLDER 
         id: 0,
         text: "NULL",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", //replaces the image in the HTML with the one specified here!! very important :] 
         //image
         options: [
             {
@@ -107,7 +107,7 @@ const textNodes = [
         id: 1,
         text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
         // this is where the game starts, dead ends lead back to here
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         // setState: { wizard: true },
         // requiredState: (currentState) => currentState.wizard, 
         options: [
@@ -128,7 +128,7 @@ const textNodes = [
     {
         // deadend home
         id: 50,
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back to your cozy cottage, walking inside to feel the warm air inside of your home. Travelling through, you throw yourself into your room, flopping into bed. And though you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
         options: [
             {
@@ -141,7 +141,7 @@ const textNodes = [
         // deadend home 2
         id: 50.22,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, you feel as if something is watching over you. You will never find out what is watching. Nor will you *ever* find out. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Restart.',
@@ -157,7 +157,7 @@ const textNodes = [
         // deadend home 3
         id: 50.33,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. Travelling through, you throw yourself into your room, flopping into bed. And although you’ve returned safely home, the world comes to a crumble, all because of your cowardly recluse. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Restart.',
@@ -173,7 +173,7 @@ const textNodes = [
         // deadend home 3
         id: 50.32,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. The wizard looks utterly puzzled by your sudden act, but shrugs as he decides to follow you back on your journey anyhow. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. And even though you’ve safely returned home, the world crumbles just because of this ruthless, selfish act of yours. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Restart',
@@ -188,7 +188,7 @@ const textNodes = [
     {
         id: 51,
         text: "You meet your unfortunate fate, and suddenly EXPLODE in front of Nagito. (Hey, didn't you read the book cover?)",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Restart',
@@ -203,7 +203,7 @@ const textNodes = [
     {
         id: 52,
         text: "The left path leads down past a dried creek full of a dark red substance that appears to coagulate rapidly. You couldn't help but wince as you watched it squelch underneath your feet. You proceed forward.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Go forward.',
@@ -214,7 +214,7 @@ const textNodes = [
     {
         id: 53,
         text: "The right path leads you straight through a massive cave full of glowing crystals. As you walk, you find yourself on the horizons of the left path you glimpsed at on your way here. Walking path the dried creek with suspicious substance, you proceed.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Go forward.',
@@ -225,7 +225,7 @@ const textNodes = [
     {
         id: 54,
         text: "The path glows lightly with fluorescent mushrooms and falling leaves. While focusing on the beautiful lights of the forest, you notice them getting closer and closer.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'The lights are calling to you. Go to it.',
@@ -240,7 +240,7 @@ const textNodes = [
     {
         id: 55,
         text: "The lights beckon you deeper into the forest, following florescent lights that mindlessly led you down a path. Next thing you know, you trip, causing yourself to tumble and fall down a deep dark hole...and you wake up, confused. NEVER. TRUST. A. FAE. [[Ending: Fallen Down]]",
-        image: "/images/never-trust-a-fae.png", // Image specific to this text node
+        image: "/images/never-trust-a-fae.png", 
         options: [
             {
                 text: 'Restart',
@@ -255,7 +255,7 @@ const textNodes = [
     {
         id: 2,
         text: 'You walk down the village path down to the local library to find more information on this urban legend… However, you only happen to find storytale books, and nothing indicating exactly who Malice is. Or, what this thing can do. You walk out of the library.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Progress.',
@@ -266,7 +266,7 @@ const textNodes = [
     {
         id: 3, 
         text: 'You walk into the village’s library of magic, the carrier of grimoires and books thorough on folklore. Picking up one of the books on folklore, you learn that Malice is an ethereal being that is made of black ink and dense murky fog. This entity was sealed away for 400 years, and today marks the day of its release. There’s information about what this thing is , but no other information about how to overcome this disastrous entity is provided. You walk out of the library.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Progress.',
@@ -277,7 +277,7 @@ const textNodes = [
     {
         id: 4,
         text: 'Walking out of the library, you bump into a lanky man wearing the clothes of what seems to be a wizard. Recognizing him, he is the great wise wizard of the west. But…he doesn’t seem so wise when you get a closer look at him. You help him up from the floor, his steps wobbly in their wake. He introduces himself. His name is Nagito, the Wizard of the West. He lives in the tower inside of the forest. Nagito tells you more about Malice, the evil entity you had been seeking information on. He mentions how magic is important to defeat him, and won’t be possible without. He even confirms the rumor of Malice finally reigning free. You squint at him slightly, pondering this information.',
-        image: "/images/fell.png", // Image specific to this text node
+        image: "/images/fell.png", 
         options: [
             {
                 text: 'Go home.',
@@ -297,7 +297,7 @@ const textNodes = [
     {
         id: 5,
         text: 'You walk past Nagito, straight into the forest. There’s trees and massive foliage surrounding you. You trudge through the greenery, and you stumble upon two paths.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Progress',
@@ -308,7 +308,7 @@ const textNodes = [
     {
         id: 6,
         text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him. "This man can be of use," you think, smiling at him to assure you really meant this.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Progress',
@@ -319,7 +319,7 @@ const textNodes = [
     { // leads to NEVER TRUST A FAE deadend
         id: 7,
         text: "When you enter the forest, exhausted by your long walk, you stumble along two paths that you have full access to traverse. They look unique, but feel as if they're attempting to trick you.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: 'Go down the left path.',
@@ -338,7 +338,7 @@ const textNodes = [
     {
         id: 7.1,
         text: "Lodging back into town, you feel as if you're not ready for this. The forest could have killed you in an instant. You ponder on what should help you on this adventure.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Consult the Wizard (Magic)",
@@ -358,7 +358,7 @@ const textNodes = [
     {
         id: 8,
         text: 'With a giddy smile, the Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from. He tells you to choose wisely, carefully holding the three for you to look at.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Alduin's Tomb of Death and Ailments (Necromancy)",
@@ -377,7 +377,7 @@ const textNodes = [
     {
         id: 8.1,
         text: "You approach the The Firing Pin forge house and head up the counter where a woman with pointed ears rearranges the nearby bookshelf. You would call out to her causing the lady to stop and head over to you, they greet you warmly to the shop as a short bush like man hammers away at a red hot iron bar in the background behind her. You'd ask for one of the most effective weapons they sell and the lady quickly obliges as she'd bring out a rather blocky yet elegant Welding pistol, you would pay them 25 primordia before thanking them. She wishes you luck as you head back to the forest.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Progress.",
@@ -389,7 +389,7 @@ const textNodes = [
     {
         id: 8.2,
         text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of primodia coin in return, as that was the price. You head back out to the forest.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Progress.",
@@ -401,7 +401,7 @@ const textNodes = [
     {
         id: 9,
         text: 'One week later, you are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Go Home.",
@@ -420,7 +420,7 @@ const textNodes = [
     {
         id: 9.1, //gun
         text: 'One week later, you are a master sharpshooter, congrats! You go out, delving deeper into the forest and continue your adventure. You manage to clear the forest paths on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Go Home.",
@@ -439,7 +439,7 @@ const textNodes = [
     {
         id: 9.2, //sword
         text: 'One week later, you are a master swordsman, congrats! You go out, delving deeper into the forest the sword helps you through your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Go Home.",
@@ -458,7 +458,7 @@ const textNodes = [
     {
         id: 10, //xplr ruined boat
         text: "You slowly approach the massive ruins of a merchant ship that has been lodged into the side of an abandoned dock workers house. The ruins of the ship and house creak loudly as the wood beams seem to be ready to break at any second due to rot and the weight setting in. You enter the boat through a massive gash in the hull revealing clearly looted boxes that were stamped with a crimson red wax seal with a boat decal on it. After rummaging through the looted remains of the ship you only really find a few clams and a key that instantly crumbles to nothing but a broken key ring and shattered bits of metal. You leave the ruined ship slightly saddened by the mediocre findings.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Go around the lake.",
@@ -473,7 +473,7 @@ const textNodes = [
     {
         id: 10.1, //around the lake
         text: "You take the long path around the lake, avoiding your own dread and silently walking down the pathway. You take in the wondrous foliage around you, including the grass softly folding underneath your feet. Luckily, nothing ever bothers you on your journey here, allowing you just a moment of leisure to stop and smell the flowers. It reminds you of back home.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Stop and smell the flowers?",
@@ -494,7 +494,7 @@ const textNodes = [
     {
         id: 10.2, //flowers sword
         text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... You miss it. Taking a rose into your hand, you smell the flower, sickeningly sweet. It wasn't the best thing, but it provided you comfort on your journey. You get up.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue on to pass the lake.",
@@ -505,7 +505,7 @@ const textNodes = [
     {
         id: 10.3, //flowers wizard
         text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you an orchid he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue on to pass the lake.",
@@ -516,7 +516,7 @@ const textNodes = [
     {
         id: 11, ///functioning boat
         text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster. The waves crash, churning below you and knocking your boat violently side to side. The beast’s jaw opening to reveal its massive fangs, ready to pull you overboard for dinner.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Flee!",
@@ -537,7 +537,7 @@ const textNodes = [
     {
         id: 11.1,
         text: "Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue across the lake.",
@@ -548,7 +548,7 @@ const textNodes = [
     {
         id: 11.2,
         text: "You wield your weapon, pointing it at the large serpent before bracing your feet and narrowing your gaze. You weren't about to be eaten today. With a swift blow, you manage to knock the beast back into its waters for safety, either fleeing, or down for the count. Either or, you had no more obstacles in your way.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue across the lake.",
@@ -559,7 +559,7 @@ const textNodes = [
     {
         id: 12,
         text: "You successfully managed to traverse the lake, exhausted by your efforts and donned with the blood of the serpent, you take a moment to rest. A soft yet harsh wind blows against you, forshadowing the events you are yet to encounter. You ponder two options in front of you. An old, rundown cabin that seems dusty and covered in cobwebs, and the clear foggy path in front of you.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue Forward.",
@@ -574,7 +574,7 @@ const textNodes = [
     {
         id: 12.1, //around the lake
         text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue Forward.",
@@ -589,7 +589,7 @@ const textNodes = [
     {
         id: 12.22, //ruined cabin
         text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. It sort of creeps you out. You look around, finding an old dusty book too worn to read. With a sigh, and yet another fail of aquiring items, you leave the cabin.",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             {
                 text: "Continue Forward.",
@@ -604,21 +604,27 @@ const textNodes = [
     {
         id: 13, //malice encounter, reach branches + end of story
         text: "null",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
-            { //good end
-                text: "null",
+            { //good end fight malice
+                text: "Refuse and Fight",
                 nextText: 14,
-                requiredState: (currentState) => currentState.weapon,
+                requiredState: (currentState) => currentState.wizard,
             },
-            { //bad end
-                text: "null",
-                nextText: 15,
-            },
-            { //neutral end
-                text: "null",
+            { //neutral end fight malice
+                text: "Refuse and Fight",
                 nextText: 16,
                 requiredState: (currentState) => currentState.weapon,
+            },
+            { //bad end weapon join malice
+                text: "Join Malice",
+                nextText: 15,
+                requiredState: (currentState) => currentState.weapon,
+            },
+            { //bad end wizard join malice
+                text: "Join Malice",
+                nextText: 15.1,
+                requiredState: (currentState) => currentState.wizard,
             },
             { //go home last chance option weapon
                 text: 'Go home.',
@@ -636,7 +642,7 @@ const textNodes = [
     {
         id: 14,
         text: "null",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
             { //good end
                 text: "null",
@@ -649,12 +655,24 @@ const textNodes = [
     {
         id: 15,
         text: "null",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
-            { //good end
+            { //bad end weapon
                 text: "null",
                 nextText: 14,
                 requiredState: (currentState) => currentState.weapon,
+            },
+        ]
+    },
+    {
+        id: 15.1,
+        text: "null",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //BAD END wizard
+                text: "null",
+                nextText: 14,
+                requiredState: (currentState) => currentState.wizard,
             },
         ]
     },
@@ -662,9 +680,9 @@ const textNodes = [
     {
         id: 16,
         text: "null",
-        image: "/images/testing-clip.jpg", // Image specific to this text node
+        image: "/images/testing-clip.jpg", 
         options: [
-            { //good end
+            { //NEUTRAL END
                 text: "null",
                 nextText: 14,
                 requiredState: (currentState) => currentState.weapon,
