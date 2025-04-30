@@ -588,7 +588,7 @@ const textNodes = [
     },
     {
         id: 12.22, //ruined cabin
-        text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. ",
+        text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. It sort of creeps you out. You look around, finding an old dusty book too worn to read. With a sigh, and yet another fail of aquiring items, you leave the cabin.",
         image: "/images/testing-clip.jpg", // Image specific to this text node
         options: [
             {
