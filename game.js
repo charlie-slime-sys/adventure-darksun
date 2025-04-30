@@ -662,8 +662,33 @@ const textNodes = [
             },
         ]
     },
+    
     {
         id: 15.1,
+        text: "null", //you insert text here within the ""!
+        image: "/images/testing-clip.jpg", //for image replacement
+        options: [
+            { //BAD END wizard
+                text: "Persist",
+                nextText: 15.2,
+            },
+// will probably add a thing of him being relieved with an option for you to fight malice instead
+        ]
+    },
+    {
+        id: 15.2,
+        text: "null",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //BAD END wizard
+                text: "Continue on.",
+                nextText: 15.3,
+            },
+// MAYBE an option to fight malice with a wizardFalse variable (nix guilt, seals malice with magic)
+        ]
+    },
+    {
+        id: 15.3,
         text: "null",
         image: "/images/testing-clip.jpg", 
         options: [
