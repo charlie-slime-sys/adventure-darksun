@@ -105,7 +105,7 @@ const textNodes = [
     },
     {
         id: 1,
-        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
+        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more. You should find out more.  You should find out more. You should find out more. You should find out more.v You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more.',
         // this is where the game starts, dead ends lead back to here
         image: "/images/testing-clip.jpg", 
         // setState: { wizard: true },
@@ -641,7 +641,41 @@ const textNodes = [
 
     {
         id: 14,
-        text: "null",
+        text: "You immediately bark out a No to Malice’s offer, the wizards smile and determined stare beside you affirms your choice. You draw your weapon as you stand next to the wizard, together you will strike him down! No holds barred!",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //good end
+                text: "Persist!",
+                nextText: 14.2,
+            },
+        ]
+    },
+    
+    {
+        id: 14.1, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
+        text: "You feel a heavy pain in your chest, your breath starts to falter as your choices sink in. You’ll be the one responsible for the destruction of everything, for killing someone you worked with all the way here, everything will have been for naught…You cant accept this. Before any other word gets out from either side you bring out your weapon and turn around to face Malice, slicing at him and knocking him away from you as you leap back to the Wizard’s side. Malice is now enraged and the Wizard looks at you, grateful that you made the right choice but you can still sense a bit of betrayal hiding under his expression. With a determined hand holding your weapon, you both get ready to face down Malice once and for all.",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //good end
+                text: "Swallow your fears.",
+                nextText: 14.11,
+            },
+        ]
+    },
+    {
+        id: 14.12, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
+        text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if its a different life, you two will find eachother and make sure Malice always fails. No matter what and next time you wont hesitate to strike him down.",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //good end
+                text: "Seal it away!",
+                nextText: 14.11,
+            },
+        ]
+    },
+    {
+        id: 14.13, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
+        text: "Malice is sealed for good, you have a bit of injuries but you need to prioritize telling others about what happened. The wizard gives you a slight smile and tells you that he’s relieved you chose the right option, yet you still see a bit of hurt in his eyes. You hold his hand tightly as you both leave Malice’s lair, everyone needs to be told the good news after all.",
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end
@@ -650,10 +684,21 @@ const textNodes = [
             },
         ]
     },
-    
+
     {
-        id: 14.1, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
-        text: "null",
+        id: 14.2,
+        text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if its a different life, you two will find eachother and make sure Malice always fails. No matter what.",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //good end
+                text: "Seal it away!",
+                nextText: 14.3,
+            },
+        ]
+    },
+    {
+        id: 14.3, 
+        text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home…",
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end
@@ -665,7 +710,7 @@ const textNodes = [
 
     {
         id: 15,
-        text: "null",
+        text: "You rest your cold gaze on malice, before you extend one hand outwards to him. You accepted Malice’s offer despite what it’ll cost everyone. After accepting his offer, no one can stop the both of you as you plunge the worlds into discord and burning darkness that not a soul will live to tell the tale of. Yourself included, as all of this carnage cost you your life. As you become consumed by the flickering flames of hatred, you ask yourself if this was the right choice… You die alongside everyone else, after watching the world helplessly crumble before you. [[END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //bad end weapon
@@ -677,8 +722,8 @@ const textNodes = [
 
     {
         id: 15.1,
-        text: "null", //you insert text here within the ""!
-        image: "/images/testing-clip.jpg", //for image replacement
+        text: "Despite your journey thus far with the wizard and with him by your side, you walk forward to Malice with your shoulders relaxed. You accepted his offer, without even getting a chance to turn around to face him you can feel the wizard’s betrayed stare stabbing into your back and through your heart. The silence in the air is deafening as you walk to Malice, the Wizard tenses up with apprehension as he tells you to fight him hand to hand if you really can bear the burden of this option.",
+        image: "/images/testing-clip.jpg", 
         options: [
             { //BAD END wizard
                 text: "Persist",
@@ -693,19 +738,7 @@ const textNodes = [
     },
     {
         id: 15.2,
-        text: "null",
-        image: "/images/testing-clip.jpg", 
-        options: [
-            { //BAD END wizard
-                text: "Continue on.",
-                nextText: 15.3,
-            },
-// MAYBE an option to fight malice with a wizardFalse variable (nix guilt, seals malice with magic)
-        ]
-    },
-    {
-        id: 15.3,
-        text: "null",
+        text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solem yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make?",
         image: "/images/testing-clip.jpg", 
         options: [
             { //BAD END wizard
@@ -717,7 +750,18 @@ const textNodes = [
 
     {
         id: 16,
-        text: "null",
+        text: "You inhale before sternly stating that you refuse his request and will put an end to the future he is bringing right here and now as you point your weapon at him with a harsh yet determined glare.",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //NEUTRAL END
+                text: "Persist.",
+                nextText: 16.1,
+            },
+        ]
+    },
+    {
+        id: 16.1,
+        text: "Once Malice falls, he manages to get sealed away yet again for another 400 years, even without the use of magic. You were injured and exhausted after the fight, but after everything, your journey has come to an end. You saved your town and the whole world be defeating Malice! ... So, why does it all feel so hollow? This was the right choice, but it feels like you are still missing something. That poisonous sense of longing never left you even after you returned to your town triumphant.",
         image: "/images/testing-clip.jpg", 
         options: [
             { //NEUTRAL END
