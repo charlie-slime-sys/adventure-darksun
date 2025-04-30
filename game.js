@@ -650,6 +650,18 @@ const textNodes = [
             },
         ]
     },
+    
+    {
+        id: 14.1, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
+        text: "null",
+        image: "/images/testing-clip.jpg", 
+        options: [
+            { //good end
+                text: "Restart from Beginning",
+                nextText: 1,
+            },
+        ]
+    },
 
     {
         id: 15,
@@ -662,7 +674,7 @@ const textNodes = [
             },
         ]
     },
-    
+
     {
         id: 15.1,
         text: "null", //you insert text here within the ""!
@@ -671,6 +683,10 @@ const textNodes = [
             { //BAD END wizard
                 text: "Persist",
                 nextText: 15.2,
+            },
+            { //BAD END wizard
+                text: "Change your mind",
+                nextText: 14.1,
             },
 // will probably add a thing of him being relieved with an option for you to fight malice instead
         ]
