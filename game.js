@@ -573,7 +573,7 @@ const textNodes = [
     },
     {
         id: 12.1, //around the lake
-        text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you.",
+        text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you. The path that leads you forward, and a dusty old cabin to your left.",
         image: "/images/testing-clip.jpg", 
         options: [
             {
@@ -581,7 +581,7 @@ const textNodes = [
                 nextText: 13,
             },
             {
-                text: "Investigate the rundown .",
+                text: "Investigate the Cabin.",
                 nextText: 12.22,
             },
         ]
@@ -675,7 +675,7 @@ const textNodes = [
     },
     {
         id: 14.13, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
-        text: "Malice is sealed for good, you have a bit of injuries but you need to prioritize telling others about what happened. The wizard gives you a slight smile and tells you that he’s relieved you chose the right option, yet you still see a bit of hurt in his eyes. You hold his hand tightly as you both leave Malice’s lair, everyone needs to be told the good news after all.",
+        text: "Malice is sealed for good, you have a bit of injuries but you need to prioritize telling others about what happened. The wizard gives you a slight smile and tells you that he’s relieved you chose the right option, yet you still see a bit of hurt in his eyes. You hold his hand tightly as you both leave Malice’s lair, everyone needs to be told the good news after all. [[THE END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end
@@ -698,7 +698,7 @@ const textNodes = [
     },
     {
         id: 14.3, 
-        text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home…",
+        text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home… [[THE END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end
@@ -710,7 +710,7 @@ const textNodes = [
 
     {
         id: 15,
-        text: "You rest your cold gaze on malice, before you extend one hand outwards to him. You accepted Malice’s offer despite what it’ll cost everyone. After accepting his offer, no one can stop the both of you as you plunge the worlds into discord and burning darkness that not a soul will live to tell the tale of. Yourself included, as all of this carnage cost you your life. As you become consumed by the flickering flames of hatred, you ask yourself if this was the right choice… You die alongside everyone else, after watching the world helplessly crumble before you. [[END]]",
+        text: "You rest your cold gaze on malice, before you extend one hand outwards to him. You accepted Malice’s offer despite what it’ll cost everyone. After accepting his offer, no one can stop the both of you as you plunge the worlds into discord and burning darkness that not a soul will live to tell the tale of. Yourself included, as all of this carnage cost you your life. As you become consumed by the flickering flames of hatred, you ask yourself if this was the right choice… You die alongside everyone else, after watching the world helplessly crumble before you. [[THE END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //bad end weapon
@@ -738,7 +738,7 @@ const textNodes = [
     },
     {
         id: 15.2,
-        text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solem yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make?",
+        text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solem yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make? [[THE END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //BAD END wizard
@@ -761,7 +761,7 @@ const textNodes = [
     },
     {
         id: 16.1,
-        text: "Once Malice falls, he manages to get sealed away yet again for another 400 years, even without the use of magic. You were injured and exhausted after the fight, but after everything, your journey has come to an end. You saved your town and the whole world be defeating Malice! ... So, why does it all feel so hollow? This was the right choice, but it feels like you are still missing something. That poisonous sense of longing never left you even after you returned to your town triumphant.",
+        text: "Once Malice falls, he manages to get sealed away yet again for another 400 years, even without the use of magic. You were injured and exhausted after the fight, but after everything, your journey has come to an end. You saved your town and the whole world be defeating Malice! ... So, why does it all feel so hollow? This was the right choice, but it feels like you are still missing something. That poisonous sense of longing never left you even after you returned to your town triumphant. [[THE END]]",
         image: "/images/testing-clip.jpg", 
         options: [
             { //NEUTRAL END
