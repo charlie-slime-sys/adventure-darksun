@@ -1,0 +1,64 @@
+/* TITLE SCREEN */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --white: #fff;
+    --gray: #4f514f;
+    --black: #000;
+    --green: #11ff00;
+    --darkergreen: green;
+    --darkgreen: #010d00; 
+    /* darker green being the lighter makes no sense but okay */
+}
+
+body {
+    background-color: var(--black);
+}
+
+.Button-correction {
+    width: 400px;
+    height: 64px;
+    display: flex;
+    text-align: center; /* Center the text inside the button */
+    line-height: 64px; /* Vertically align text to the middle if needed */
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    border: 2px solid var(--darkergreen);
+    cursor: pointer;
+}
+
+.Button-size {
+    position: absolute;
+    width: 428px;
+    height: 64px;
+    left: 855px;
+    top: 145px;
+}
+
+a {
+    text-decoration: var(--green);
+    text-decoration-color: var(--green);
+}
+.link {
+    text-decoration: var(--green);
+    color: var(--green);
+}
+
+.btns {
+    background-color: var(--black);
+    margin-bottom: 20px;
+}
+
+.btns button:hover {
+    background-color: var(--darkergreen);
+    color: var(--white);
+}
