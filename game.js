@@ -105,7 +105,7 @@ const textNodes = [
     },
     {
         id: 1,
-        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more. You should find out more.  You should find out more. You should find out more. You should find out more.v You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more. You should find out more.',
+        text: 'You wake up in your home, deep within the humble village of Socrates. Your name is Nix, and the fate of this world lies in your hands. You walk out into town, overhearing rumors from townsfolk about an entity that wishes to bring utter destruction to Evanesca. Asking around, you find out this urban legend you hear of stands by the name “Malice”. You should find out more.',
         // this is where the game starts, dead ends lead back to here
         image: "/images/testing-clip.jpg", 
         // setState: { wizard: true },
@@ -494,7 +494,7 @@ const textNodes = [
     {
         id: 10.2, //flowers sword
         text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... You miss it. Taking a rose into your hand, you smell the flower, sickeningly sweet. It wasn't the best thing, but it provided you comfort on your journey. You get up.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/rose.png", 
         options: [
             {
                 text: "Continue on to pass the lake.",
