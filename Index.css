@@ -38,10 +38,8 @@ body {
 
 .Button-size {
     position: absolute;
-    width: 428px;
-    height: 64px;
-    left: 855px;
-    top: 145px;
+    left: 35%;
+    top: 15%;
 }
 
 a {
