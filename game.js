@@ -589,7 +589,7 @@ const textNodes = [
     {
         id: 12.22, //ruined cabin
         text: "You enter the ruined cabin, brushing away dust, cobwebs, and debris that happened to be in your way. The cabin looked like it used to be lived in, fully furnished and looking as if there were complete memories spent here. It sort of creeps you out. You look around, finding an old dusty book too worn to read. With a sigh, and yet another fail of acquiring items, you leave the cabin.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/cabin.png", 
         options: [
             {
                 text: "Continue Forward.",
@@ -603,7 +603,7 @@ const textNodes = [
     },
     {
         id: 13, //malice encounter, reach branches + end of story
-        text: "null",
+        text: "Finally, you reach the end of the path. You see a large, dark figure standing in front of you. It looks like a mass of shadows, ink, clumping together to make one solid form, incomprehensible to the eye. You feel a chill run down your spine as you approach the figure, and you hear a voice echoing in your mind. It sounds like it's beckoning you to join it. You recognize from the books you have read that this was Malice, the entity you had been searching for. You have to make a decision, and fast.",
         image: "/images/testing-clip.jpg", 
         options: [
             { //good end fight malice
