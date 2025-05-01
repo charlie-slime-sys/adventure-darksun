@@ -188,7 +188,7 @@ const textNodes = [
     {
         id: 51,
         text: "You meet your unfortunate fate, and suddenly EXPLODE in front of Nagito. (Hey, didn't you read the book cover?)",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/explosion.png", 
         options: [
             {
                 text: 'Restart',
