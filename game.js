@@ -338,7 +338,7 @@ const textNodes = [
     {
         id: 7.1,
         text: "Lodging back into town, you feel as if you're not ready for this. The forest could have killed you in an instant. You ponder on what should help you on this adventure.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/town.png", 
         options: [
             {
                 text: "Consult the Wizard (Magic)",
