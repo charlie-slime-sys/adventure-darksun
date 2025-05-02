@@ -203,7 +203,7 @@ const textNodes = [
     {
         id: 52,
         text: "The left path leads down past a dried creek full of a dark red substance that appears to coagulate rapidly. You couldn't help but wince as you watched it squelch underneath your feet. You proceed forward.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/red_creek.png", 
         options: [
             {
                 text: 'Go forward.',
@@ -214,7 +214,7 @@ const textNodes = [
     {
         id: 53,
         text: "The right path leads you straight through a massive cave full of glowing crystals. As you walk, you find yourself on the horizons of the left path you glimpsed at on your way here. Walking path the dried creek with suspicious substance, you proceed.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/cave.png", 
         options: [
             {
                 text: 'Go forward.',
@@ -225,7 +225,7 @@ const textNodes = [
     {
         id: 54,
         text: "The path glows lightly with fluorescent mushrooms and falling leaves. While focusing on the beautiful lights of the forest, you notice them getting closer and closer.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/glowing.png", 
         options: [
             {
                 text: 'The lights are calling to you. Go to it.',
@@ -255,7 +255,7 @@ const textNodes = [
     {
         id: 2,
         text: 'You walk down the village path down to the local library to find more information on this urban legend… However, you only happen to find storytale books, and nothing indicating exactly who Malice is. Or, what this thing can do. You walk out of the library.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/library.png", 
         options: [
             {
                 text: 'Progress.',
@@ -266,7 +266,7 @@ const textNodes = [
     {
         id: 3, 
         text: 'You walk into the village’s library of magic, the carrier of grimoires and books thorough on folklore. Picking up one of the books on folklore, you learn that Malice is an ethereal being that is made of black ink and dense murky fog. This entity was sealed away for 400 years, and today marks the day of its release. There’s information about what this thing is , but no other information about how to overcome this disastrous entity is provided. You walk out of the library.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/magic_library.png", 
         options: [
             {
                 text: 'Progress.',
@@ -296,8 +296,8 @@ const textNodes = [
     },
     {
         id: 5,
-        text: 'You walk past Nagito, straight into the forest. There’s trees and massive foliage surrounding you. You trudge through the greenery, and you stumble upon two paths.',
-        image: "/images/testing-clip.jpg", 
+        text: 'You walk past Nagito, straight into the forest. There’s trees and massive foliage surrounding you. You trudge through the greenery, trying to find your way through the confusing pathing.',
+        image: "/images/forest.png", 
         options: [
             {
                 text: 'Progress',
@@ -319,7 +319,7 @@ const textNodes = [
     { // leads to NEVER TRUST A FAE deadend
         id: 7,
         text: "When you enter the forest, exhausted by your long walk, you stumble along two paths that you have full access to traverse. They look unique, but feel as if they're attempting to trick you.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/two_paths.png", 
         options: [
             {
                 text: 'Go down the left path.',
