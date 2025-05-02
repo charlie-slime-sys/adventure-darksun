@@ -86,7 +86,7 @@ img {
     border: 2px solid var(--darkergreen);
     padding: 50px;
     width: 80%;
-    height: 200px;
+    height: 20%;
     /* width: 1900px; */
     /* height: 280px; */
     background-color: var(--black);
@@ -174,3 +174,12 @@ h3 {
     font-size: 12px;
     margin-bottom: -15px;
 }
+
+/* #text {
+    white-space: normal; /* Ensures text wraps to the next line */
+    word-wrap: break-word; /* Breaks long words into the next line */
+    overflow-wrap: break-word; /* Compatibility for word wrapping */
+    max-width: 80%; /* Prevents it from stretching beyond its container */
+    overflow: hidden; /* Prevents overflow if the text is too long */
+    text-align: left; /* Aligns text properly */
+} */
