@@ -177,9 +177,9 @@ h3 {
 
 /* #text {
     white-space: normal; /* Ensures text wraps to the next line */
-    word-wrap: break-word; /* Breaks long words into the next line */
-    overflow-wrap: break-word; /* Compatibility for word wrapping */
-    max-width: 80%; /* Prevents it from stretching beyond its container */
-    overflow: hidden; /* Prevents overflow if the text is too long */
-    text-align: left; /* Aligns text properly */
-} */
+    /* word-wrap: break-word; /* Breaks long words into the next line */
+    /* overflow-wrap: break-word; Compatibility for word wrapping */
+    /* max-width: 80%; Prevents it from stretching beyond its container */
+    /* overflow: hidden; Prevents overflow if the text is too long */
+    /* text-align: left; /* Aligns text properly */
+    /* } */
