@@ -173,7 +173,7 @@ const textNodes = [
         // deadend home 3
         id: 50.32,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. The wizard looks utterly puzzled by your sudden act, but shrugs as he decides to follow you back on your journey anyhow. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. And even though you’ve safely returned home, the world crumbles just because of this ruthless, selfish act of yours. [[ YOU LOSE ]]',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: 'Restart',
@@ -308,7 +308,7 @@ const textNodes = [
     {
         id: 6,
         text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him. "This man can be of use," you think, smiling at him to assure you really meant this.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: 'Progress',
@@ -358,7 +358,7 @@ const textNodes = [
     {
         id: 8,
         text: 'With a giddy smile, the Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from. He tells you to choose wisely, carefully holding the three for you to look at.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Alduin's Tomb of Death and Ailments (Necromancy)",
@@ -377,7 +377,7 @@ const textNodes = [
     {
         id: 8.1,
         text: "You approach the The Firing Pin forge house and head up the counter where a woman with pointed ears rearranges the nearby bookshelf. You would call out to her causing the lady to stop and head over to you, they greet you warmly to the shop as a short bush like man hammers away at a red hot iron bar in the background behind her. You'd ask for one of the most effective weapons they sell and the lady quickly obliges as she'd bring out a rather blocky yet elegant Welding pistol, you would pay them 25 primordia before thanking them. She wishes you luck as you head back to the forest.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Progress.",
@@ -389,7 +389,7 @@ const textNodes = [
     {
         id: 8.2,
         text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of primodia coin in return, as that was the price. You head back out to the forest.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Progress.",
@@ -401,7 +401,7 @@ const textNodes = [
     {
         id: 9,
         text: 'One week later, you are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Go Home.",
@@ -420,7 +420,7 @@ const textNodes = [
     {
         id: 9.1, //gun
         text: 'One week later, you are a master sharpshooter, congrats! You go out, delving deeper into the forest and continue your adventure. You manage to clear the forest paths on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Go Home.",
@@ -439,7 +439,7 @@ const textNodes = [
     {
         id: 9.2, //sword
         text: 'One week later, you are a master swordsman, congrats! You go out, delving deeper into the forest the sword helps you through your adventure. You manage to clear the forest paths easily on your journey to the old shipyard.',
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Go Home.",
@@ -458,7 +458,7 @@ const textNodes = [
     {
         id: 10, //xplr ruined boat
         text: "You slowly approach the massive ruins of a merchant ship that has been lodged into the side of an abandoned dock workers house. The ruins of the ship and house creak loudly as the wood beams seem to be ready to break at any second due to rot and the weight setting in. You enter the boat through a massive gash in the hull revealing clearly looted boxes that were stamped with a crimson red wax seal with a boat decal on it. After rummaging through the looted remains of the ship you only really find a few clams and a key that instantly crumbles to nothing but a broken key ring and shattered bits of metal. You leave the ruined ship slightly saddened by the mediocre findings.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Go around the lake.",
@@ -473,7 +473,7 @@ const textNodes = [
     {
         id: 10.1, //around the lake
         text: "You take the long path around the lake, avoiding your own dread and silently walking down the pathway. You take in the wondrous foliage around you, including the grass softly folding underneath your feet. Luckily, nothing ever bothers you on your journey here, allowing you just a moment of leisure to stop and smell the flowers. It reminds you of back home.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Stop and smell the flowers?",
@@ -505,7 +505,7 @@ const textNodes = [
     {
         id: 10.3, //flowers wizard
         text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you an orchid he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Continue on to pass the lake.",
@@ -516,7 +516,7 @@ const textNodes = [
     {
         id: 11, ///functioning boat
         text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster. The waves crash, churning below you and knocking your boat violently side to side. The beast’s jaw opening to reveal its massive fangs, ready to pull you overboard for dinner.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Flee!",
@@ -537,7 +537,7 @@ const textNodes = [
     {
         id: 11.1,
         text: "Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Continue across the lake.",
@@ -548,7 +548,7 @@ const textNodes = [
     {
         id: 11.2,
         text: "You wield your weapon, pointing it at the large serpent before bracing your feet and narrowing your gaze. You weren't about to be eaten today. With a swift blow, you manage to knock the beast back into its waters for safety, either fleeing, or down for the count. Either or, you had no more obstacles in your way.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Continue across the lake.",
@@ -559,7 +559,7 @@ const textNodes = [
     {
         id: 12,
         text: "You successfully managed to traverse the lake, exhausted by your efforts and donned with the blood of the serpent, you take a moment to rest. A soft yet harsh wind blows against you, foreshadowing the events you are yet to encounter. You ponder two options in front of you. An old, rundown cabin that seems dusty and covered in cobwebs, and the clear foggy path in front of you.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Continue Forward.",
@@ -574,7 +574,7 @@ const textNodes = [
     {
         id: 12.1, //around the lake
         text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you. The path that leads you forward, and a dusty old cabin to your left.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             {
                 text: "Continue Forward.",
@@ -604,7 +604,7 @@ const textNodes = [
     {
         id: 13, //malice encounter, reach branches + end of story
         text: "Finally, you reach the end of the path. You see a large, dark figure standing in front of you. It looks like a mass of shadows, ink, clumping together to make one solid form, incomprehensible to the eye. You feel a chill run down your spine as you approach the figure, and you hear a voice echoing in your mind. It sounds like it's beckoning you to join it. You recognize from the books you have read that this was Malice, the entity you had been searching for. You have to make a decision, and fast.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end fight malice
                 text: "Refuse and Fight",
@@ -642,7 +642,7 @@ const textNodes = [
     {
         id: 14,
         text: "You immediately bark out a No to Malice’s offer, the wizards smile and determined stare beside you affirms your choice. You draw your weapon as you stand next to the wizard, together you will strike him down! No holds barred!",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Persist!",
@@ -654,7 +654,7 @@ const textNodes = [
     {
         id: 14.1, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
         text: "You feel a heavy pain in your chest, your breath starts to falter as your choices sink in. You’ll be the one responsible for the destruction of everything, for killing someone you worked with all the way here, everything will have been for naught…You cant accept this. Before any other word gets out from either side you bring out your weapon and turn around to face Malice, slicing at him and knocking him away from you as you leap back to the Wizard’s side. Malice is now enraged and the Wizard looks at you, grateful that you made the right choice but you can still sense a bit of betrayal hiding under his expression. With a determined hand holding your weapon, you both get ready to face down Malice once and for all.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Swallow your fears.",
@@ -665,7 +665,7 @@ const textNodes = [
     {
         id: 14.12, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
         text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if its a different life, you two will find eachother and make sure Malice always fails. No matter what and next time you wont hesitate to strike him down.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Seal it away!",
@@ -676,7 +676,7 @@ const textNodes = [
     {
         id: 14.13, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
         text: "Malice is sealed for good, you have a bit of injuries but you need to prioritize telling others about what happened. The wizard gives you a slight smile and tells you that he’s relieved you chose the right option, yet you still see a bit of hurt in his eyes. You hold his hand tightly as you both leave Malice’s lair, everyone needs to be told the good news after all. [[THE END]]",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Restart from Beginning",
@@ -688,7 +688,7 @@ const textNodes = [
     {
         id: 14.2,
         text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if its a different life, you two will find eachother and make sure Malice always fails. No matter what.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Seal it away!",
@@ -699,7 +699,7 @@ const textNodes = [
     {
         id: 14.3, 
         text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home… [[THE END]]",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Restart from Beginning",
@@ -711,7 +711,7 @@ const textNodes = [
     {
         id: 15,
         text: "You rest your cold gaze on malice, before you extend one hand outwards to him. You accepted Malice’s offer despite what it’ll cost everyone. After accepting his offer, no one can stop the both of you as you plunge the worlds into discord and burning darkness that not a soul will live to tell the tale of. Yourself included, as all of this carnage cost you your life. As you become consumed by the flickering flames of hatred, you ask yourself if this was the right choice… You die alongside everyone else, after watching the world helplessly crumble before you. [[THE END]]",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //bad end weapon
                 text: "Restart from Beginning",
@@ -723,7 +723,7 @@ const textNodes = [
     {
         id: 15.1,
         text: "Despite your journey thus far with the wizard and with him by your side, you walk forward to Malice with your shoulders relaxed. You accepted his offer, without even getting a chance to turn around to face him you can feel the wizard’s betrayed stare stabbing into your back and through your heart. The silence in the air is deafening as you walk to Malice, the Wizard tenses up with apprehension as he tells you to fight him hand to hand if you really can bear the burden of this option.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //BAD END wizard
                 text: "Persist",
@@ -739,7 +739,7 @@ const textNodes = [
     {
         id: 15.2,
         text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solem yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make? [[THE END]]",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //BAD END wizard
                 text: "Restart from Beginning",
@@ -751,7 +751,7 @@ const textNodes = [
     {
         id: 16,
         text: "You inhale before sternly stating that you refuse his request and will put an end to the future he is bringing right here and now as you point your weapon at him with a harsh yet determined glare.",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //NEUTRAL END
                 text: "Persist.",
@@ -762,7 +762,7 @@ const textNodes = [
     {
         id: 16.1,
         text: "Once Malice falls, he manages to get sealed away yet again for another 400 years, even without the use of magic. You were injured and exhausted after the fight, but after everything, your journey has come to an end. You saved your town and the whole world be defeating Malice! ... So, why does it all feel so hollow? This was the right choice, but it feels like you are still missing something. That poisonous sense of longing never left you even after you returned to your town triumphant. [[THE END]]",
-        image: "/images/testing-clip.jpg", 
+        image: "/images/not_done.png", 
         options: [
             { //NEUTRAL END
                 text: "Restart from Beginning",
