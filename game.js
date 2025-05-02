@@ -658,7 +658,7 @@ const textNodes = [
         options: [
             { //good end
                 text: "Swallow your fears.",
-                nextText: 14.11,
+                nextText: 14.12,
             },
         ]
     },
@@ -669,7 +669,7 @@ const textNodes = [
         options: [
             { //good end
                 text: "Seal it away!",
-                nextText: 14.11,
+                nextText: 14.13,
             },
         ]
     },
