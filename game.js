@@ -505,7 +505,7 @@ const textNodes = [
     {
         id: 10.3, //flowers wizard
         text: "You stopped in front of the flowers, taking just a moment to rest. You feel exhausted, almost overwhelmed. You look up at the dark red sky, frightened by the darkening gloom that covered the once clear bright blue skies... Nagito, pausing in front of you, offers you an orchid he had plucked for his own use, smiling sweetly down at you. You smile back, taking the flower and taking a moment to smell it. It has a delightful scent that leaves you rejuvenated. Thanking the wizard, you get up.",
-        image: "/images/not_done.png", 
+        image: "/images/orchid.png", 
         options: [
             {
                 text: "Continue on to pass the lake.",
@@ -574,7 +574,7 @@ const textNodes = [
     {
         id: 12.1, //around the lake
         text: "You successfully managed to go around the lake, rejuvenated by your calming walk. Taking a moment to pause and assess your options; you see two possible options in front of you. The path that leads you forward, and a dusty old cabin to your left.",
-        image: "/images/not_done.png", 
+        image: "/images/around_lake.png", 
         options: [
             {
                 text: "Continue Forward.",
