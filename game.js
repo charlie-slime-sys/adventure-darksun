@@ -516,7 +516,7 @@ const textNodes = [
     {
         id: 11, ///functioning boat
         text: "You take the boat across the large lake, but to your unfortunate luck, you run into a large lake monster. The waves crash, churning below you and knocking your boat violently side to side. The beast’s jaw opening to reveal its massive fangs, ready to pull you overboard for dinner.",
-        image: "/images/not_done.png", 
+        image: "/images/monster.png", 
         options: [
             {
                 text: "Flee!",
