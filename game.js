@@ -537,7 +537,7 @@ const textNodes = [
     {
         id: 11.1,
         text: "Nagito's gemstones raise up and off of his clothing before arranging in a circular motion in front of him. The stones change from their base ruby red color to that of a yellow sapphire as they crackle to life with bright yellow bolts of electricity that arc together into a crystal within the center of the rotating crystals around it as it works like a conduit. After only a few seconds a bright yellow beam of crackling electricity shoots out from the center crystal, putting a hole right through the creature's head, allowing you to now sail through the lake with no more obstacles in your path.",
-        image: "/images/not_done.png", 
+        image: "/images/monster2.png", 
         options: [
             {
                 text: "Continue across the lake.",
@@ -548,7 +548,7 @@ const textNodes = [
     {
         id: 11.2,
         text: "You wield your weapon, pointing it at the large serpent before bracing your feet and narrowing your gaze. You weren't about to be eaten today. With a swift blow, you manage to knock the beast back into its waters for safety, either fleeing, or down for the count. Either or, you had no more obstacles in your way.",
-        image: "/images/not_done.png", 
+        image: "/images/monster1.png", 
         options: [
             {
                 text: "Continue across the lake.",
