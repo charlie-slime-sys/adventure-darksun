@@ -377,7 +377,7 @@ const textNodes = [
     {
         id: 8.1,
         text: "You approach the The Firing Pin forge house and head up the counter where a woman with pointed ears rearranges the nearby bookshelf. You would call out to her causing the lady to stop and head over to you, they greet you warmly to the shop as a short bush like man hammers away at a red hot iron bar in the background behind her. You'd ask for one of the most effective weapons they sell and the lady quickly obliges as she'd bring out a rather blocky yet elegant Welding pistol, you would pay them 25 primordia before thanking them. She wishes you luck as you head back to the forest.",
-        image: "/images/not_done.png", 
+        image: "/images/gun_mastery.png", 
         options: [
             {
                 text: "Progress.",
@@ -389,7 +389,7 @@ const textNodes = [
     {
         id: 8.2,
         text: 'A large man stands at the blacksmith, hammering away at a large piece of metal. He looks up at you, and you ask him if he could make you a weapon. He nods, and tells you to wait a moment. After a few minutes, he hands you a large sword, and tells you to be careful with it. You thank him, and give him a couple of primodia coin in return, as that was the price. You head back out to the forest.',
-        image: "/images/not_done.png", 
+        image: "/images/sword_mastery.png", 
         options: [
             {
                 text: "Progress.",
