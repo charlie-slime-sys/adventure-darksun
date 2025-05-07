@@ -308,7 +308,7 @@ const textNodes = [
     {
         id: 6,
         text: 'You ask Nagito if he could teach them some magic to go and face the eldritch mad man Malice with him. "This man can be of use," you think, smiling at him to assure you really meant this.',
-        image: "/images/not_done.png", 
+        image: "/images/learn_magic.png", 
         options: [
             {
                 text: 'Progress',
@@ -358,7 +358,7 @@ const textNodes = [
     {
         id: 8,
         text: 'With a giddy smile, the Wizard gladly tells you that he can teach you how to conduct magic, leading you back to his wizard tower inside of the forest. Inside, the Wizard offers tombs of magic to you. There are three you can choose from. He tells you to choose wisely, carefully holding the three for you to look at.',
-        image: "/images/not_done.png", 
+        image: "/images/giddy.png", 
         options: [
             {
                 text: "Alduin's Tomb of Death and Ailments (Necromancy)",
@@ -401,7 +401,7 @@ const textNodes = [
     {
         id: 9,
         text: 'One week later, you are a master of the magic you have chosen, congrats! You go out, delving deeper into the forest and the Wizard joins you through your adventure. With Nagito by your side, you manage to clear the forest paths easily on your journey to the old shipyard.',
-        image: "/images/not_done.png", 
+        image: "/images/magic_mastery.png", 
         options: [
             {
                 text: "Go Home.",
