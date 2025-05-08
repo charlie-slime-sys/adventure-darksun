@@ -604,7 +604,7 @@ const textNodes = [
     {
         id: 13, //malice encounter, reach branches + end of story
         text: "Finally, you reach the end of the path. You see a large, dark figure standing in front of you. It looks like a mass of shadows, ink, clumping together to make one solid form, incomprehensible to the eye. You feel a chill run down your spine as you approach the figure, and you hear a voice echoing in your mind. It sounds like it's beckoning you to join it. You recognize from the books you have read that this was Malice, the entity you had been searching for. You have to make a decision, and fast.",
-        image: "/images/not_done.png", 
+        image: "/images/malice.png", 
         options: [
             { //good end fight malice
                 text: "Refuse and Fight",
