@@ -729,7 +729,7 @@ const textNodes = [
                 text: "Persist",
                 nextText: 15.2,
             },
-            { //BAD END wizard
+            { //GOOD NEU END wizard
                 text: "Change your mind",
                 nextText: 14.1,
             },
@@ -738,7 +738,7 @@ const textNodes = [
     },
     {
         id: 15.2,
-        text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solem yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make? [[THE END]]",
+        text: "Once the wizard falls, you hear his back land against the ground with a thud as his hat falls off. The wizard has stopped breathing and the magic force is no more, Malice congrats you as now all hope is lost for the future in defeating him. Bloodshed spreads across the lands like spilled ink on paper and no one can do anything to stop it, the screams of the dead ring in your mind. They won’t have much time to shout though as you are equally dying now, just as they all are… But before you pass on once more, you look up and see what appears to be the wizard staring you down with a solemn yet judgmental gaze. It fades away just as it appeared, that was… was this really the right choice to make? [[THE END]]",
         image: "/images/not_done.png", 
         options: [
             { //BAD END wizard
