@@ -762,7 +762,7 @@ const textNodes = [
     {
         id: 16.1,
         text: "Once Malice falls, he manages to get sealed away yet again for another 400 years, even without the use of magic. You were injured and exhausted after the fight, but after everything, your journey has come to an end. You saved your town and the whole world by defeating Malice! ... So, why does it all feel so hollow? This was the right choice, but it feels like you are still missing something. That poisonous sense of longing never left you even after you returned to your town triumphant. [[THE END]]",
-        image: "/images/not_done.png", 
+        image: "/images/16point1.png", 
         options: [
             { //NEUTRAL END
                 text: "Restart from Beginning",
