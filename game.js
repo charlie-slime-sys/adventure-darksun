@@ -751,7 +751,7 @@ const textNodes = [
     {
         id: 16,
         text: "You inhale before sternly stating that you refuse his request and will put an end to the future he is bringing right here and now as you point your weapon at him with a harsh yet determined glare.",
-        image: "/images/not_done.png", 
+        image: "/images/neutral.png", 
         options: [
             { //NEUTRAL END
                 text: "Persist.",
