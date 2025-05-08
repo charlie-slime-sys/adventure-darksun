@@ -170,7 +170,7 @@ const textNodes = [
         ]
     },
     {
-        // deadend home 3
+        // deadend home 4
         id: 50.32,
         text: 'You throw up your hands, and turn around to face home. This isn’t your problem, and it never has to be. The wizard looks utterly puzzled by your sudden act, but shrugs as he decides to follow you back on your journey anyhow. You walk down the path back from where you stood, walking back just to feel the warm air inside of your home brush against your worn skin. And even though you’ve safely returned home, the world crumbles just because of this ruthless, selfish act of yours. [[ YOU LOSE ]]',
         image: "/images/not_done.png", 
