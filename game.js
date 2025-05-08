@@ -653,23 +653,23 @@ const textNodes = [
     
     {
         id: 14.1, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
-        text: "You feel a heavy pain in your chest, your breath starts to falter as your choices sink in. You’ll be the one responsible for the destruction of everything, for killing someone you worked with all the way here, everything will have been for naught…You cant accept this. Before any other word gets out from either side you bring out your weapon and turn around to face Malice, slicing at him and knocking him away from you as you leap back to the Wizard’s side. Malice is now enraged and the Wizard looks at you, grateful that you made the right choice but you can still sense a bit of betrayal hiding under his expression. With a determined hand holding your weapon, you both get ready to face down Malice once and for all.",
+        text: "You feel a heavy pain in your chest, your breath starts to falter as your choices sink in. You’ll be the one responsible for the destruction of everything, for killing someone you worked with all the way here, everything will have been for naught…You can't accept this. Before any other word gets out from either side you bring out your weapon and turn around to face Malice, slicing at him and knocking him away from you as you leap back to the Wizard’s side. Malice is now enraged and the Wizard looks at you, grateful that you made the right choice but you can still sense a bit of betrayal hiding under his expression. With a determined hand holding your weapon, you both get ready to face down Malice once and for all.",
         image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Swallow your fears.",
-                nextText: 14.11,
+                nextText: 14.12,
             },
         ]
     },
     {
         id: 14.12, // you change your mind and fight malice instead, nagito looks relieved, almost the same to id:14
-        text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if its a different life, you two will find eachother and make sure Malice always fails. No matter what and next time you wont hesitate to strike him down.",
+        text: "You get Malice weak enough for you and the wizard to combine your magic and seal him again, while you focus all your energy on your magic you make a silent promise. Whenever Malice breaks free, you will bring him down with the wizard by your side. Even if it's a different life, you two will find each other and make sure Malice always fails. No matter what and next time you won't hesitate to strike him down.",
         image: "/images/not_done.png", 
         options: [
             { //good end
                 text: "Seal it away!",
-                nextText: 14.11,
+                nextText: 14.13,
             },
         ]
     },
@@ -698,7 +698,7 @@ const textNodes = [
     },
     {
         id: 14.3, 
-        text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home… [[THE END]]",
+        text: "Malice is sealed for good, you have a bit of injuries but the wizards smile at you, both having conquered Malice and saved the world makes your wounds feel like nothing more than a scrape. You pull yourself up and celebrate with the Wizard, you should go and tell the townspeople the good news. You feel like spending a bit more time with your new wizard friend though before you go back home… [[THE END]]",
         image: "/images/not_done.png", 
         options: [
             { //good end
@@ -711,7 +711,7 @@ const textNodes = [
     {
         id: 15,
         text: "You rest your cold gaze on malice, before you extend one hand outwards to him. You accepted Malice’s offer despite what it’ll cost everyone. After accepting his offer, no one can stop the both of you as you plunge the worlds into discord and burning darkness that not a soul will live to tell the tale of. Yourself included, as all of this carnage cost you your life. As you become consumed by the flickering flames of hatred, you ask yourself if this was the right choice… You die alongside everyone else, after watching the world helplessly crumble before you. [[THE END]]",
-        image: "/images/not_done.png", 
+        image: "/images/malice_accept_weapon.png", 
         options: [
             { //bad end weapon
                 text: "Restart from Beginning",
