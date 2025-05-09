@@ -642,7 +642,7 @@ const textNodes = [
     {
         id: 14,
         text: "You immediately bark out a No to Malice’s offer, the wizards smile and determined stare beside you affirms your choice. You draw your weapon as you stand next to the wizard, together you will strike him down! No holds barred!",
-        image: "/images/not_done.png", 
+        image: "/images/barkno.png", 
         options: [
             { //good end
                 text: "Persist!",
