@@ -118,10 +118,12 @@ const textNodes = [
             {
                 text: 'Go to the local library.',
                 nextText: 2,
+                setState: { wizard: false, weapon: false },
             },
             {
                 text: 'Go to the local magic library.',
                 nextText: 3,
+                setState: { wizard: false, weapon: false },
             }
         ]
     },
